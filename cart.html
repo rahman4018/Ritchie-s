@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CART</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- -------main navbar------- -->
+    <div class="container">
+        <div class="navbar">
+            <div class="icon">
+                <a href="login-form.html"><img src="/image/contact1.png" width="40px" height="40px"></a>
+                <img src="/image/search12.png" width="37px" height="37px">
+                <a href="cart-1.html" ><img src="/image/cart123.png" width="40px" height="38px"></a>
+            </div>
+            <div class="logo">
+                <div class="menu-icon">
+                    <img src="/image/menu22.png" onclick="showMenu()">
+                </div>
+                <a href="index.html"><img src="/image/logo12.png" width="120px "></a>
+            </div>
+            <a href="index.html"><h1>RITCHIE'S</h1></a>
+            <div class="menu" id="menu">
+                <a href="best-sellers.html"  ><button>BEST SELLERS</button></a>
+                <a href="new-arrivals.html"  ><button>NEW ARRIVALS</button></a>
+                <a href="shop.html"  ><button>SHOP </button></a>
+                <a href="last-chance.html"  ><button>LAST CHANCE</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------- CART------- -->
+
+    <div class="small-container">
+        <div class="cart-2">
+            <div class="cart-head">
+                <h2>CART</h2>
+            </div>
+            <div class="cart-details">
+                <table>
+                    <tr>
+                        <th>PRODUCT</th>
+                        <th>QUANTITY</th>
+                        <th>TOTAL</th>
+                    <tr>
+                        <hr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="/image/watch21.png">
+                                <div>
+                                    <p>AURUM GOLD</p>
+                                    <small>$ 480</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"><br><a href="">ROMOVE</a> </td>
+                        <td>$ 480</td>
+                    </tr>
+                </table><br><br>
+                <hr>
+            </div>
+            <div class="cart-content">
+                <div class="message">
+                    <p>Add Order Note</p>
+                    <textarea name="text" id="" cols="50" rows="8" placeholder="How Can We Help You ?"></textarea>
+                </div>
+                <div class="total-amt">
+                    <h5>TOTAL : $ 480</h5>
+                        <p>Shipping & taxes calculated at checkout</p>
+                    <button class="btn">CHECKOUT</button>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Footer---------->
+
+    <div class="footer">
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>RITCHIE'S</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>Our Story</p>
+                <p>Register Your Watch</p>
+                <p>Reviews</p>
+                <p>Affiliates</p>
+                <p>The Collecter's Circle</p>
+            </div>
+        </div>
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>SUPPORT</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>FAQ</p>
+                <p>Instruction Manual</p>
+                <p>Delivery & Returns</p>
+                <p>Warranty Policy</p>
+                <p>Contact Our Service Center</p>
+            </div>
+        </div>
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>SHOP</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>Watches</p>
+                <p>Cufflinks</p>
+                <p>Leather Goods</p>
+                <p>Writing Instrument</p>
+                <p>Collector's Box</p>
+                <p>Winder</p>
+            </div>
+        </div>
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>SOCIAL</h4>
+            </div>
+            <div class="ritchie-info">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>NEWSLETTER</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>Subscribe to receive updates, access to exclusive deal, and more.</p>
+                <input type="email" name="email" placeholder="Enter Your Email Address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="copyright">
+            <p> &#169; R i t c h i e ' s</p>
+        </div>
+        <div class="box-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+    </div>
+    <script>
+
+        var isMenuVisible = false;
+         function showMenu() {
+             if(isMenuVisible === false)
+             {
+                 document.getElementById('menu').style.height="140px";
+                 isMenuVisible= true;
+             }
+             else{
+                 document.getElementById('menu').style.height="0";
+                 isMenuVisible= false;
+             }
+         }
+     </script>
+</body>
+
+</html>

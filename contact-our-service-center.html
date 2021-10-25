@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact our service center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- -------main navbar------- -->
+    <div class="container">
+        <div class="navbar">
+            <div class="icon">
+                <a href="login-form.html"><img src="/image/contact1.png" width="40px" height="40px"></a>
+                <img src="/image/search12.png" width="37px" height="37px">
+                <a href="cart-1.html" ><img src="/image/cart123.png" width="40px" height="38px"></a>
+            </div>
+            <div class="logo">
+                <div class="menu-icon">
+                    <img src="/image/menu22.png" onclick="showMenu()">
+                </div>
+                <a href="index.html"><img src="/image/logo12.png" width="120px "></a>
+            </div>
+            <a href="index.html"><h1>RITCHIE'S</h1></a>
+            <div class="menu" id="menu">
+                <a href="best-sellers.html"  ><button>BEST SELLERS</button></a>
+                <a href="new-arrivals.html"  ><button>NEW ARRIVALS</button></a>
+                <a href="shop.html"  ><button>SHOP </button></a>
+                <a href="last-chance.html"  ><button>LAST CHANCE</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------CONTACT OUR SERVICE CENTER--------- -->
+
+    <div class="service-center">
+        <div class="service-center-head">
+            <h2>CONTACT OUR SERVICE CENTER</h2>
+        </div>
+        <div class="service-info">
+            <p>Need repairs or services? Check out <a href="">FAQ</a> section first, you might find the answer to your
+                question there. To contact repair or <br> service center please first <a href="">register your timepiece
+                    here.</a></p>
+            <p class="second">To contact an authorised service centre please fill in the form below , we will get back
+                to you shortly.</p>
+        </div>
+
+        <form action="" class="form">
+            <label for="name" class="required">Full Name</label><br>
+            <input type="text"><br><br><br>
+
+            <label for="email" class="required">E-mail</label><br>
+            <input type="text" value="ex:myname@example.com"><br><br><br>
+
+            <label for="country" class="required">Your country of residence</label><br>
+            <input type="text" value="EU/UK">
+            <select id="country" name="country">
+                <option value="	Australia"> Australia</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Brazil">Canada</option>
+            </select><br><br><br>
+
+            <div class="city">
+                <div class="street">
+                    <label for="address" class="required">Street address</label><br>
+                    <input type="text"><br>
+                </div>
+                <div class="city2">
+                    <label for="city" class="required">City</label><br>
+                    <input type="text"><br>
+                </div>
+            </div>
+            <br><br>
+            <div class="postal">
+                <div class="state">
+                    <label for="state" class="required">State/Province</label><br>
+                    <input type="text">
+                </div>
+                <div class="zip">
+                    <label for="postal" class="required">Postal/zipcode</label><br>
+                    <input type="text"><br><br><br>
+                </div>
+            </div>
+            <label for="state" class="required">Your watch model number</label><br>
+            <input type="text"><br><br>
+            <img src="/image/model.jpg" width="300px">
+            <p>Enter 4-digit model number marked on the case back of your watch</p>
+
+            <label for="country" class="required">Where did you buy your watch</label><br>
+            <input type="text" list="country">
+            <select id="country" name="country">
+                <option value="	Australia"> Australia</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Brazil">Canada</option>
+            </select><br><br><br>
+
+            <label for="start" class="required">Date of purchase</label><br>
+            <input type="date" id="start" name="trip-start"><br><br><br>
+
+            <label for="message" class="required">Discribe issue with your watch</label><br>
+            <textarea name="" id="" cols="40" rows="10"></textarea><br><br><br>
+
+            <label for="file" class="required">Attach photo of your watch</label><br>
+            <input type="file"><br><br><br>
+
+            <label for="marketing" class="required">Marketing</label><br>
+            <input type="checkbox" id="checkbox">
+            <label for="marketing" class="required">want to receive marketing material / newsletter</label><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <!-- ---------Footer---------->
+
+    <div class="footer">
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>RITCHIE'S</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>Our Story</p>
+                <p>Register Your Watch</p>
+                <p>Reviews</p>
+                <p>Affiliates</p>
+                <p>The Collecter's Circle</p>
+            </div>
+        </div>
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>SUPPORT</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>FAQ</p>
+                <p>Instruction Manual</p>
+                <p>Delivery & Returns</p>
+                <p>Warranty Policy</p>
+                <p>Contact Our Service Center</p>
+            </div>
+        </div>
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>SHOP</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>Watches</p>
+                <p>Cufflinks</p>
+                <p>Leather Goods</p>
+                <p>Writing Instrument</p>
+                <p>Collector's Box</p>
+                <p>Winder</p>
+            </div>
+        </div>
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>SOCIAL</h4>
+            </div>
+            <div class="ritchie-info">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="ritchie">
+            <div class="ritchie-head">
+                <h4>NEWSLETTER</h4>
+            </div>
+            <div class="ritchie-info">
+                <p>Subscribe to receive updates, access to exclusive deal, and more.</p>
+                <input type="email" name="email" placeholder="Enter Your Email Address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="copyright">
+            <p> &#169; R i t c h i e ' s</p>
+        </div>
+        <div class="box-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+    </div>
+    <script>
+
+        var isMenuVisible = false;
+        function showMenu() {
+            if (isMenuVisible === false) {
+                document.getElementById('menu').style.height = "140px";
+                isMenuVisible = true;
+            }
+            else {
+                document.getElementById('menu').style.height = "0";
+                isMenuVisible = false;
+            }
+        }
+    </script>
+</body>
+
+</html>
